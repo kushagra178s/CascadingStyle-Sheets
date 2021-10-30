@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chap6</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .containor{
+            display: flex;
+            height: 150vh;
+            align-items: center;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: rgb(241, 62, 241);
+        }
+        .box1{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            display: inline-block;
+            border: crimson 2px solid;
+            /* float: center; */
+            order: 2;
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            display: inline-block;
+            border: crimson 2px solid;
+            /* float: right; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="containor">
+        <div class="box1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </div>
+    
+        <div class="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div class="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div class="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+    </div>
+
+</body>
+</html>

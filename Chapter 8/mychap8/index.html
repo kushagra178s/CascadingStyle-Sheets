@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 100vh;
+            width: 100vw;
+            background-color: cyan;
+        } 
+        .inbox{
+            height: 40vh;
+            width: 40vw;
+            background-color: orangered;
+            color: rgb(0, 0, 0);
+            /* animation-name: animate;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-fill-mode: backwards; */
+        }
+        img{
+            animation: animate 1s ease-in infinite;
+        }
+        @keyframes animate {
+            from{
+                transform: rotate(0deg) ;
+                /* /* width:100px; */
+            }
+            to{
+                transform: rotate(360deg) ;
+                /* /* width:400px; */
+
+            }
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <!-- <div class="inbox">
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe asperiores quibusdam ipsum? Laudantium, possimus ducimus.
+        </div> -->
+        <div class="picture">
+            <img src="dragon.png" height="100vh" width="100vh">
+        </div>
+
+    </div>
+    
+</body>
+</html>
